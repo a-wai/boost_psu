@@ -1,14 +1,15 @@
 EESchema Schematic File Version 4
+LIBS:boost_psu-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Boost PSU"
+Date "2019-03-07"
+Rev "0"
+Comp "Arnaud Ferraris (A-wai Amplification)"
+Comment1 "Licensed under CERN OHL v.1.2"
 Comment2 ""
 Comment3 ""
 Comment4 ""
