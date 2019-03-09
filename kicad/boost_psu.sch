@@ -8,11 +8,11 @@ Sheet 1 1
 Title "Boost PSU"
 Date "2019-03-07"
 Rev "0"
-Comp "Arnaud Ferraris (A-wai Amplification)"
+Comp "Arnaud Ferraris (A-wai Amplification) & LEMON Amps"
 Comment1 "Licensed under CERN OHL v.1.2"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Tube preamplifier power supply"
 $EndDescr
 $Comp
 L Regulator_Switching:MC34063AP U1
@@ -28,23 +28,23 @@ $EndComp
 $Comp
 L Device:C C2
 U 1 1 5C811D18
-P 3920 4010
-F 0 "C2" H 4035 4057 50  0000 L CNN
-F 1 "100n" H 4035 3964 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 3958 3860 50  0001 C CNN
-F 3 "~" H 3920 4010 50  0001 C CNN
-	1    3920 4010
+P 4120 3550
+F 0 "C2" H 4235 3597 50  0000 L CNN
+F 1 "100n" H 4235 3504 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4158 3400 50  0001 C CNN
+F 3 "~" H 4120 3550 50  0001 C CNN
+	1    4120 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C1
 U 1 1 5C811E08
-P 3500 4010
-F 0 "C1" H 3619 4057 50  0000 L CNN
-F 1 "470µ" H 3619 3964 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 3538 3860 50  0001 C CNN
-F 3 "~" H 3500 4010 50  0001 C CNN
-	1    3500 4010
+P 3710 3550
+F 0 "C1" H 3829 3597 50  0000 L CNN
+F 1 "470µ" H 3829 3504 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 3748 3400 50  0001 C CNN
+F 3 "~" H 3710 3550 50  0001 C CNN
+	1    3710 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -86,7 +86,7 @@ U 1 1 5C8124C8
 P 5570 3400
 F 0 "L1" V 5764 3400 50  0000 C CNN
 F 1 "100µH/1.5A" V 5671 3400 50  0000 C CNN
-F 2 "Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01" H 5570 3400 50  0001 C CNN
+F 2 "ProjectLib:L_Radial_D10.5mm_P5.00mm_MuRATA_1200RS" H 5570 3400 50  0001 C CNN
 F 3 "~" H 5570 3400 50  0001 C CNN
 	1    5570 3400
 	0    -1   -1   0   
@@ -99,23 +99,17 @@ Connection ~ 5240 3880
 $Comp
 L Device:R R1
 U 1 1 5C81278F
-P 4850 3400
-F 0 "R1" V 5060 3400 50  0000 C CNN
-F 1 "0.22R" V 4967 3400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 3400 50  0001 C CNN
-F 3 "~" H 4850 3400 50  0001 C CNN
-	1    4850 3400
+P 3490 3400
+F 0 "R1" V 3700 3400 50  0000 C CNN
+F 1 "0.22R" V 3607 3400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3420 3400 50  0001 C CNN
+F 3 "~" H 3490 3400 50  0001 C CNN
+	1    3490 3400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5000 3400 5240 3400
-Wire Wire Line
 	5240 3400 5240 3780
 Connection ~ 5240 3780
-Wire Wire Line
-	4700 3400 4440 3400
-Wire Wire Line
-	4440 3400 4440 3780
 $Comp
 L Device:R R3
 U 1 1 5C81297F
@@ -215,7 +209,7 @@ U 1 1 5C813CE2
 P 7180 3760
 F 0 "C5" H 7295 3807 50  0000 L CNN
 F 1 "100n" H 7295 3714 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 7218 3610 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm" H 7218 3610 50  0001 C CNN
 F 3 "~" H 7180 3760 50  0001 C CNN
 	1    7180 3760
 	1    0    0    -1  
@@ -350,39 +344,70 @@ $EndComp
 Wire Wire Line
 	8540 3560 8540 3500
 Wire Wire Line
-	3210 3400 3500 3400
-Connection ~ 4440 3400
-Wire Wire Line
-	4260 4630 3920 4630
-Wire Wire Line
 	3210 4630 3210 3500
 Connection ~ 4260 4630
-Wire Wire Line
-	3920 3860 3920 3400
-Connection ~ 3920 3400
-Wire Wire Line
-	3920 3400 4440 3400
-Wire Wire Line
-	3500 3860 3500 3400
-Connection ~ 3500 3400
-Wire Wire Line
-	3500 3400 3920 3400
-Wire Wire Line
-	3500 4160 3500 4630
-Connection ~ 3500 4630
-Wire Wire Line
-	3500 4630 3210 4630
-Wire Wire Line
-	3920 4160 3920 4630
-Connection ~ 3920 4630
-Wire Wire Line
-	3920 4630 3500 4630
 Text Label 6120 3400 0    50   ~ 0
 HT1
 Text Label 5240 3490 0    50   ~ 0
 PEAK
 Text Label 7730 3400 0    50   ~ 0
 HT2
-Text Label 4000 3400 0    50   ~ 0
+Text Label 3210 3400 0    50   ~ 0
 IN
+Wire Wire Line
+	3210 4630 3610 4630
+Wire Wire Line
+	3640 3400 3710 3400
+Connection ~ 3710 3400
+Wire Wire Line
+	3710 3400 4120 3400
+Connection ~ 4120 3400
+Wire Wire Line
+	4120 3400 5240 3400
+Wire Wire Line
+	3710 3700 3910 3700
+$Comp
+L power:GND #PWR04
+U 1 1 5C83F408
+P 3910 3700
+F 0 "#PWR04" H 3910 3450 50  0001 C CNN
+F 1 "GND" H 3915 3525 50  0000 C CNN
+F 2 "" H 3910 3700 50  0001 C CNN
+F 3 "" H 3910 3700 50  0001 C CNN
+	1    3910 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3910 3700
+Wire Wire Line
+	3910 3700 4120 3700
+Wire Wire Line
+	3210 3400 3340 3400
+Wire Wire Line
+	3340 3400 3340 3950
+Wire Wire Line
+	3340 3950 3610 3950
+Wire Wire Line
+	4440 3950 4440 3780
+Connection ~ 3340 3400
+$Comp
+L Device:C C7
+U 1 1 5C840E90
+P 3610 4300
+F 0 "C7" H 3725 4347 50  0000 L CNN
+F 1 "100n" H 3725 4254 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 3648 4150 50  0001 C CNN
+F 3 "~" H 3610 4300 50  0001 C CNN
+	1    3610 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3610 4450 3610 4630
+Connection ~ 3610 4630
+Wire Wire Line
+	3610 4630 4260 4630
+Wire Wire Line
+	3610 4150 3610 3950
+Connection ~ 3610 3950
+Wire Wire Line
+	3610 3950 4440 3950
 $EndSCHEMATC

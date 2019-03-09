@@ -1,3 +1,4 @@
+Copyright 2019, LEMON Amps.
 Copyright 2019, Arnaud Ferraris.
 
 This documentation describes Open Hardware and is licensed under the
