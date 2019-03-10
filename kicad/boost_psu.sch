@@ -78,7 +78,7 @@ F 1 "MPS751" H 5581 2984 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5590 3130 50  0001 C CNN
 F 3 "~" H 5390 3030 50  0001 C CNN
 	1    5390 3030
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:L L1
