@@ -1,4 +1,11 @@
+# Boost PSU for tube preamplifiers
+
+![](https://github.com/a-wai/boost_psu/blob/master/boost_psu.png)
+
+### Copyright
+
 Copyright 2019, LEMON Amps.
+
 Copyright 2019, Arnaud Ferraris.
 
 This documentation describes Open Hardware and is licensed under the
