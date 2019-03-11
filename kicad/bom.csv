@@ -1,0 +1,18 @@
+Component,Description,References,Value,Quantity Per PCB,MFR,MPN,SPR,SPN
+1,Unpolarized capacitor,C2 C4 C7,100n,3,WIMA,MKS2D031001A00KI00,RS,108-2700
+2,Unpolarized capacitor,C5,10n/400V,1,KEMET,C322C103KBR5TA,RS,906-0654
+3,Polarized capacitor,C6,4.7µ/350V,1,Nichicon,UBT2V4R7MPD8,RS,762-189
+4,Unpolarized capacitor,C3,470p,1,KEMET,C322C471J2G5TA,RS,538-1534
+5,Polarized capacitor,C1,470µ,1,Nichicon,UVR1V471MPD,RS,862-3370
+6,Diode,D1,1N4148,1,ON Semiconductor,1N4148TR,RS,671-5477
+7,Diode,D2,BYV26,1,Vishay,BYV26E-TAP,RS,708-7776
+8,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J1,+12V,1,Wurth Elektronik,691102710002,RS,826-7226
+9,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J2,HT,1,Wurth Elektronik,691102710002,RS,826-7226
+10,Inductor,L1,100µH/1.5A,1,Murata Power Solutions,12RS104C,RS,715-7374
+11,"10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB",Q2,IRF740,1,Vishay,IRF740LCPBF,RS,536-5992
+12,"PNP transistor, emitter/base/collector",Q1,MPS751,1,ON Semiconductor,MPS751G,RS,774-3583
+13,Resistor,R1,0.22R,1,TE Connectivity,LR1F220R,RS,148-348
+14,Resistor,R2,1.8k,1,TE Connectivity,LR1F1K8,RS,148-562
+15,Resistor,R3,1k,1,TE Connectivity,LR1F1K0,RS,125-1159
+16,Resistor,R4,430k,1,TE Connectivity,YR1B432KCC,RS,754-5753
+17,"1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, DIP-8",U1,MC34063AP,1,ON Semiconductor,MC34063AP1G,RS,516-5095
