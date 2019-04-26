@@ -11,7 +11,7 @@ Component,Description,References,Value,Quantity Per PCB,MFR,MPN,SPR,SPN
 10,Inductor,L1,100µH/1.5A,1,Murata Power Solutions,12RS104C,RS,715-7374
 11,"10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB",Q2,IRF740,1,Vishay,IRF740LCPBF,RS,536-5992
 12,"PNP transistor, emitter/base/collector",Q1,MPS751,1,ON Semiconductor,MPS751G,RS,774-3583
-13,Resistor,R1,0.22R,1,TE Connectivity,LR1F220R,RS,148-348
+13,Resistor,R1,0.22R,1,TE Connectivity,LR1LJR22,RS,135-500
 14,Resistor,R2,1.8k,1,TE Connectivity,LR1F1K8,RS,148-562
 15,Resistor,R3,1k,1,TE Connectivity,LR1F1K0,RS,125-1159
 16,Resistor,R4,430k,1,TE Connectivity,YR1B432KCC,RS,754-5759

@@ -135,9 +135,9 @@ F 1 "0.22R" V 2897 2630 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2710 2630 50  0001 C CNN
 F 3 "~" H 2780 2630 50  0001 C CNN
 F 4 "TE Connectivity" H 0   0   50  0001 C CNN "MFR"
-F 5 "LR1F220R" H 0   0   50  0001 C CNN "MPN"
+F 5 "LR1LJR22" H 0   0   50  0001 C CNN "MPN"
 F 6 "RS" H 0   0   50  0001 C CNN "SPR"
-F 7 "148-348" H 0   0   50  0001 C CNN "SPN"
+F 7 "135-500" H 0   0   50  0001 C CNN "SPN"
 F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    2780 2630
 	0    -1   -1   0   
